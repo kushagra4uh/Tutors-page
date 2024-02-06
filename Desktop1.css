@@ -1,0 +1,199 @@
+
+.tutors {
+    color: var(--color-teal-100);
+  }
+  .heading {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 44px;
+    font-weight: 600;
+  }
+  .heading-and-subheading {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .our-philosophy-is {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--text-xl-normal-size);
+    line-height: 30px;
+    color: var(--color-slategray);
+  }
+  .heading-and-supporting-text {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .profile-icon {
+    width: 96px;
+    position: relative;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .name,
+  .role {
+    align-self: stretch;
+    position: relative;
+  }
+  .name {
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .role {
+    font-size: var(--body1-regular-size);
+    line-height: 24px;
+    color: var(--color-mediumseagreen);
+  }
+  .name-and-role {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .supporting-text {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body1-regular-size);
+    line-height: 24px;
+    color: var(--color-slategray);
+  }
+  .name-and-supporting-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .social-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .social-icons,
+  .text-and-social-links {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-base);
+  }
+  .social-icons {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .text-and-social-links {
+    justify-content: flex-start;
+  }
+  .team-member,
+  .team-member-wrap1,
+  .team-member-wrap2,
+  .team-member-wrap3,
+  .team-member-wrap4,
+  .text-and-social-links {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .team-member {
+    height: 316px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .team-member-wrap1 {
+    flex: 1;
+    background-color: #FFF8EF;
+    align-items: flex-start;
+    padding: var(--padding-5xl);
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 3px lightslategray;
+  }
+  .team-member-wrap2 {
+    flex: 1;
+    background-color: #EFFBFE;
+    align-items: flex-start;
+    padding: var(--padding-5xl);
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 3px lightslategray;
+  }
+  .team-member-wrap3 {
+    flex: 1;
+    background-color: #FFF4F4;
+    align-items: flex-start;
+    padding: var(--padding-5xl);
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 3px lightslategray;
+  }
+  .team-member-wrap4 {
+    flex: 1;
+    background-color: #F2EFFF;
+    align-items: flex-start;
+    padding: var(--padding-5xl);
+    border-radius: 50px;
+    box-shadow: 1px 1px 6px 3px lightslategray;
+  }
+  .content1,
+  .team-member-wrap1,
+  .team-member-wrap2,
+  .team-member-wrap3,
+  .team-member-wrap4,
+  .team-member1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .team-member1 {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xl);
+    
+  }
+  .content1 {
+    width: 1200px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+    font-size: var(--text-lg-medium-size);
+  }
+  .heading-and-supporting-text-parent {
+    position: absolute;
+    top: 102px;
+    left: 137px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .desktop-1-child {
+    position: absolute;
+    top: 725px;
+    left: 0;
+    background-color: rgba(0, 128, 128, 0.75);
+    width: 1440px;
+    height: 64px;
+  }
+  .desktop-1 {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 789px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--display-md-semibold-size);
+    color: var(--color-gray-300);
+    font-family: var(--text-md-normal);
+  }
+  
