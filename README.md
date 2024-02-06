@@ -1,5 +1,5 @@
 # Tutors-page
-This is just a basic view of All the tutors or teachers or instructors, of any Organization.
+## This is just a basic view of All the tutors or teachers or instructors, of any Organization.
 
 I made this while working on an Internship. I have uploaded my Figma designs also, which i designed with One of my team mate at the Internship...
 
